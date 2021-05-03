@@ -123,7 +123,7 @@
         renderer.setSize(window.innerWidth, window.innerHeight)
         aspect = window.innerWidth / window.innerHeight
       }
-      const flowmap = new ogl.Flowmap(gl, { falloff: 0.2, dissipation: 0.9 })
+      const flowmap = new ogl.Flowmap(gl, { falloff: 0.2, dissipation: 0.95 })
       const geometry = new ogl.Geometry(gl, {
         position: {
           size: 2,
